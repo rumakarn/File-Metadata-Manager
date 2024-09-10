@@ -8,14 +8,14 @@
     <name>file-directory-app</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-        <!-- JUnit dependency for testing -->
+    
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-        <!-- PostgreSQL JDBC Driver dependency -->
+      
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
