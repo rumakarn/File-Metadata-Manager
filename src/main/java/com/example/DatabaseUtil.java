@@ -21,7 +21,7 @@ public class DatabaseUtil implements DatabaseOperations {
     private static String PASSWORD;
 
     static {
-        // Load database configuration from properties file
+        
         Properties props = new Properties();
         try (InputStream input = DatabaseUtil.class.getClassLoader().getResourceAsStream("config.properties")) {
             if (input == null) {

@@ -20,8 +20,7 @@ public class FileDirectoryApp {
                 System.out.println("3. Exit");
                 System.out.print("Choose an option: ");
                 int choice = scanner.nextInt();
-                scanner.nextLine(); // Consume newline character
-
+                scanner.nextLine(); 
                 switch (choice) {
                     case 1:
                         System.out.print("Enter directory path: ");
@@ -40,7 +39,7 @@ public class FileDirectoryApp {
                 }
             }
         } finally {
-            scanner.close(); // Ensure the scanner is closed at the end
+            scanner.close(); 
         }
     }
 
